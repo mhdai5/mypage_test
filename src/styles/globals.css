@@ -1,3 +1,4 @@
+/*
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,4 +25,99 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+*/
+
+/* login.module.css */
+/*
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0050b3;
+}
+
+.error {
+  color: red;
+}
+*/
+
+/* login.module.css */
+
+
+/* styles/globals.css */
+
+/* ... 既存のスタイル（もしあれば） ... */
+
+/* ログインページのスタイル */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f6f8;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0070f3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0050b3;
+}
+
+.login-error {
+  margin-top: 10px;
+  color: red;
+  text-align: center;
 }
